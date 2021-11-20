@@ -136,7 +136,7 @@ h1.kazu-name{
   text-transform: uppercase;
 }
 .ios_button{
-  background-image: url(ios.eps);
+  background-image: url(images/ios.eps);
   background-repeat: no-repeat;
   background-position: center;
   padding-left: 50px;
