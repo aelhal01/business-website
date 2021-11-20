@@ -127,24 +127,26 @@ input, select {
 }
 
 /* Body*/
-.game-name{
+.kazu-name{
   font-family: arial, "Times New Roman";
-  font-size: 22px;
+  font-size: 70px;
   font-style: normal;
   font-weight: bold;
+  text-align: center;
+
 }
 .ios_button{
   background-image: url(ios.eps);
   background-repeat: no-repeat;
-  background-position: <left|right>;
-  padding-<left|right>: 50px;
+  background-position: center;
+  padding-left: 50px;
 }
 
 .googleplay_button {
   background-image: url(images/google-play.png);
   background-repeat: no-repeat;
-  background-position: <left|right>;
-  padding-<left|right>: 50px;
+  background-position: center;
+  padding-left: 50px;
 }
 
 
