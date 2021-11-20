@@ -212,6 +212,9 @@ nav {
 
 /*Home Content - Responsiveness - Mobile Friendly*/
 @media(max-width: 700px){
+  .rows {
+    flex-direction: column;
+  }
   .reviews-col img {
     margin-left: 0px;
     margin-right: 15px;
@@ -219,79 +222,4 @@ nav {
   .questions h1 {
     font-size: 24px;
   }
-}
-
-
-/* Navbar */
-/*.navbar {
-  background-image: url('images/background.png');
-  height: 75px;
-}
-
-.navbar ul {
-  display: flex;
-}
-
-.navbar a {
-  color: #fff;
-  padding: 10px;
-  margin: 0 5px;
-}
-
-.navbar a:hover {
-  border-bottom: 2px #fff solid;
-}
-
-.navbar .flex {
-  justify-content: space-between;
-}
-
-/* Body*/
-/*.kazu-name{
-  font-family: serif;
-  font-size: 70px;
-  font-style: normal;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  color: #1C8DFF;
-  letter-spacing: 7px;
-}
-.ios_button{
-  background-image: url(images/ios.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-left: 100px;
-}
-
-.googleplay_button {
-  background-image: url(images/google-play.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-left: 100px;
-}
-
-
-/* Footer */
-/*.footer{
-  background-image: url('images/background.png');
-}
-.footer .social a {
-  margin: 0 10px;
-}
-
-.fa-github:hover {
-  color: #000000;
-}
-
-.fa-facebook:hover {
-  color: #1773EA;
-}
-
-.fa-instagram:hover {
-  color: #B32E87;
-}
-
-.fa-twitter:hover {
-  color: #1C9CEA;
 }
