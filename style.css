@@ -280,9 +280,14 @@ nav {
   width: 50%;
   border-radius: 10px;
 }
-.stats-col h3 {
+.stats-col h2 {
   margin-top: 16px;
   margin-bottom: 15px;
+  text-align: left;
+}
+.stats-col h3 {
+  margin-top: 13px;
+  margin-bottom: 12px;
   text-align: left;
 }
 
