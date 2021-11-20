@@ -259,13 +259,13 @@ nav {
   margin-right: 30px;
 }
 .contact-col div p {
-  color: #D3D3D3;
+  color: #10538F;
   padding: 0;
 }
 .contact-col div h5 {
   font-size: 20px;
   margin-bottom: 5px;
-  color: #fff;
+  color: #000000;
   font-weight: 400;
 }
 .contact-col input, .contact-col textarea {
