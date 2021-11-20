@@ -127,6 +127,12 @@ input, select {
 }
 
 /* Body*/
+.game-name{
+  font-family: arial, "Times New Roman";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+}
 .ios_button{
   background-image: url(ios.eps);
   background-repeat: no-repeat;
