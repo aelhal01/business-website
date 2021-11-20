@@ -53,6 +53,84 @@ nav .fa{
 }
 
 
+/*Home Content - Intro Details*/
+.text-box h1 {
+  font-size: 62px;
+  text-transform: uppercase;
+}
+
+.text-box h2 {
+  font-size: 57px;
+  color: #CB0001;
+}
+
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.download-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.download-btn:hover {
+  border: 1px solid #CB0001;
+  background: #CB0001;
+  transition: 1s;
+}
+
+/*Home Content - Skills Details*/
+.skills-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+.skills-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+.skills-col p {
+  padding: 0;
+}
+.skills-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/*Home Content - Reviews Details*/
+.reviews-col {
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #fff3f3;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+.reviews-col img {
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.reviews-col p {
+  padding: 0;
+}
+.reviews-col h3 {
+  margin-top: 15px;
+  text-align: left;
+}
 /*Responsiveness - Mobile Friendly*/
 @media(max-width: 700px){
   .text-box h1 {
