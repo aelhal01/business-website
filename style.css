@@ -138,10 +138,10 @@ input, select {
   letter-spacing: 7px;
 }
 .ios_button{
-  background-image: url(images/ios.eps);
+  background-image: url(images/ios.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 
 .googleplay_button {
