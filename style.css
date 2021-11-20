@@ -135,6 +135,7 @@ input, select {
   text-align: center;
   text-transform: uppercase;
   color: #1C8DFF;
+  letter-spacing: 7px;
 }
 .ios_button{
   background-image: url(images/ios.eps);
