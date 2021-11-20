@@ -1,8 +1,7 @@
 /* Navbar */
 .navbar {
-  background-color: var(--primary-color);
-  color: #fff;
-  height: 70px;
+  background-image: url('images/background.png');
+  height: 80px;
 }
 
 .navbar ul {
@@ -25,6 +24,9 @@
 
 
 /* Footer */
+.footer{
+  background-image: url('images/background.png');
+}
 .footer .social a {
   margin: 0 10px;
 }
