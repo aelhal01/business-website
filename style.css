@@ -127,13 +127,14 @@ input, select {
 }
 
 /* Body*/
-h1.kazu-name{
+.kazu-name{
   font-family: serif;
   font-size: 70px;
   font-style: normal;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+  color: #1C8DFF;
 }
 .ios_button{
   background-image: url(images/ios.eps);
