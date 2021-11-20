@@ -58,6 +58,12 @@ nav {
 }
 .text-box h1 {
   font-size: 62px;
+  text-transform: uppercase;
+}
+
+.text-box h2 {
+  font-size: 57px;
+  color: #CB0001;
 }
 
 .text-box p {
@@ -90,6 +96,9 @@ nav .fa{
 @media(max-width: 700px){
   .text-box h1 {
     font-size: 20px;
+  }
+  .text-box h2 {
+    font-size: 14px;
   }
   .nav-links ul li {
     display: block;
