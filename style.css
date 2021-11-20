@@ -38,6 +38,20 @@ nav {
   font-size: 13px;
 }
 
+.nav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #2A66FF;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+
 /* Navbar */
 /*.navbar {
   background-image: url('images/background.png');
