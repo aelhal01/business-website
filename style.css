@@ -31,6 +31,11 @@ nav {
   position: relative;
 }
 
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
 
 /* Navbar */
 /*.navbar {
