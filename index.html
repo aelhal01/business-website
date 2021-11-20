@@ -69,7 +69,7 @@
       <!--Nav Bar-->
       <nav>
         <a href="index.html"><img src="images/logobusiness.png" width="100"></a>
-        <div class="nav-links" id="nav-links">
+        <div class="nav-links" id="navLinks">
           <i class="fas fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="index.html">HOME</a></li>
@@ -160,15 +160,14 @@
 
     <!--JavaScript for toggle menu -->
     <script>
-      var navLinks = document.getElementById("nav-links");
+      var navLinks = document.getElementById("navLinks");
 
       //function to make nav menu appear on PHONE
-      function showMenu() {
-        navLinks.style.right = "0";
+      function showMenu(){
+        navLinks.style.right = "0px";
       }
-
       //function to make nav menu disappear on PHONE
-      function hideMenu() {
+      function hideMenu(){
         navLinks.style.right = "-200px";
       }
     </script>
