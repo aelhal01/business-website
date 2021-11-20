@@ -1,3 +1,15 @@
+nav .fas{
+  display: none;
+}
+
+.reviews-col .fas {
+  color: #CB0001;
+}
+.reviews-col .far {
+  color: #CB0001;
+}
+
+
 *{
   margin: 0;
   padding: 0;
@@ -46,10 +58,6 @@ nav {
 }
 .nav-links ul li:hover::after{
   width: 100%;
-}
-
-nav .fas{
-  display: none;
 }
 
 /*Nav Bar - Responsiveness - Mobile Friendly*/
@@ -165,12 +173,6 @@ nav .fas{
 .reviews-col h3 {
   margin-top: 15px;
   text-align: left;
-}
-.reviews-col .fas {
-  color: #CB0001;
-}
-.reviews-col .far {
-  color: #CB0001;
 }
 
 /*Home Content - Responsiveness - Mobile Friendly*/
