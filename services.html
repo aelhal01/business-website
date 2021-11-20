@@ -10,13 +10,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap">
 
     <style>
-    .headerv2 {
-      min-height: 100vh;
-      width: 100%;
-      background: #3399cc;
-      background-position: center;
-      background-size: cover;
-      position: relative;
+    .stats {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    .preview{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
     }
     </style>
 
@@ -44,25 +49,20 @@
     <!--Body-->
     <!--Stats-->
     <section class="stats">
-        <div class="container">
-            <div class="grid grid-3 text-center my-4">
-                <div>
-                    <i class="fas fa-users"></i>
-                    <h3>5,000,000</h3>
-                    <p class="text-secondary">Players</p>
-                </div>
-                <div>
-                    <i class="fas fa-trophee"></i>
-                    <h3>500</h3>
-                    <p class="text-secondary">Achievements</p>
-                </div>
-                <div>
-                    <i class="fas fa-layer-group"></i>
-                    <h3>150</h3>
-                    <p class="text-secondary">Levels</p>
-                </div>
-            </div>
+      <div class="row">
+        <div class="stats-col">
+          <img src="images/crowd.png">
+          <h3>Players</h3>
         </div>
+        <div class="stats-col">
+          <img src="images/sound-level.png">
+          <h3>Achievements & Rewards</h3>
+        </div>
+        <div class="stats-col">
+          <img src="images/trophy.png">
+          <h3>Levels</h3>
+        </div>
+      </div>
     </section>
 
     <!--Tutorial-->
