@@ -13,6 +13,7 @@
   position: relative;
 }
 
+/*Nav bar*/
 nav {
   display: flex;
   padding: 2% 6%;
@@ -47,6 +48,7 @@ nav {
   width: 100%;
 }
 
+/*Home Content*/
 .text-box {
   width: 90%;
   color: #fff;
@@ -93,6 +95,15 @@ nav .fa{
   display: none;
 }
 
+/*Home Content - Skills*/
+.skills {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+/*Responsiveness - Mobile Friendly*/
 @media(max-width: 700px){
   .text-box h1 {
     font-size: 20px;
@@ -125,6 +136,7 @@ nav .fa{
     padding: 30px;
   }
 }
+
 
 
 /* Navbar */
