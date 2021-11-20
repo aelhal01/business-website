@@ -175,6 +175,13 @@ nav {
   text-align: left;
 }
 
+/*Home Content - Questions Details*/
+.questions h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
 /*Home Content - Responsiveness - Mobile Friendly*/
 @media(max-width: 700px){
   .reviews-col img {
