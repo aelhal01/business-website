@@ -102,50 +102,6 @@ nav {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
-/*FOOTER*/
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: #3399cc;
-  color: #fff;
-}
-.footer .social a {
-  margin: 0 10px;
-}
-
-.fa-github:hover {
-  color: #000000;
-}
-
-.fa-facebook:hover {
-  color: #1773EA;
-}
-
-.fa-instagram:hover {
-  color: #B32E87;
-}
-
-.fa-twitter:hover {
-  color: #1C9CEA;
-}
-
-/*Common Display*/
-.row{
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-between;
-}
-/*Common Display - Responsiveness - Mobile Friendly*/
-@media(max-width: 700px){
-  .row {
-    flex-direction: column;
-  }
-}
-
-
-/*HOME Content - Intro Details*/
 .text-box h1 {
   font-size: 62px;
   text-transform: uppercase;
@@ -178,6 +134,58 @@ footer {
   background: #CB0001;
   transition: 1s;
 }
+
+
+/*FOOTER*/
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #3399cc;
+  color: #fff;
+}
+.footer .social a {
+  margin: 0 10px;
+}
+
+.fa-github:hover {
+  color: #000000;
+}
+
+.fa-facebook:hover {
+  color: #1773EA;
+}
+
+.fa-instagram:hover {
+  color: #B32E87;
+}
+
+.fa-twitter:hover {
+  color: #1C9CEA;
+}
+.img-box{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*Common Display*/
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+/*Common Display - Responsiveness - Mobile Friendly*/
+@media(max-width: 700px){
+  .row {
+    flex-direction: column;
+  }
+}
+
+
 
 /*HOME Content - Skills Details*/
 .skills h1{
