@@ -131,6 +131,10 @@ nav .fa{
   margin-top: 15px;
   text-align: left;
 }
+.reviews-col .fa {
+  color: #CB0001;
+}
+
 /*Responsiveness - Mobile Friendly*/
 @media(max-width: 700px){
   .text-box h1 {
