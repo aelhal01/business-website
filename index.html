@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
     <!-- <style>
       .MrZu {
         text-align: center;
@@ -28,13 +28,15 @@
     <section class="header">
       <nav>
         <a href="index.html"><img src="images/logobusiness.png" width="100"></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="">HOME</a></li>
             <li><a href="">THE GAME</a></li>
             <li><a href="">CONTACT</a></li>
           </ul>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
 
       <div class="text-box">
@@ -43,8 +45,20 @@
         <p> Do you enjoy playing Sudoku? Do you like solving puzzles? Do you want to practice your math? <br> Then Kazu is the perfect game for you.</p>
         <a href="" class="download-btn">Download Our App to Play</a>
       </div>
-
     </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      //function to make nav menu appear on PHONE
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      //function to make nav menu disappear on PHONE
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>
 
