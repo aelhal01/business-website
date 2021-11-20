@@ -277,13 +277,13 @@ nav {
   text-align: left;
 }
 .stats-col img {
-  width: 100%;
+  width: 50%;
   border-radius: 10px;
 }
 .stats-col h3 {
   margin-top: 16px;
   margin-bottom: 15px;
-  text-align: center;
+  text-align: left;
 }
 
 /*The Game - Preview*/
