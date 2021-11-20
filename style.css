@@ -95,7 +95,6 @@ hr {
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
-    text-transform: uppercase;
 }
 
 input, select {
@@ -128,13 +127,13 @@ input, select {
 }
 
 /* Body*/
-.kazu-name{
+h1.kazu-name{
   font-family: serif;
   font-size: 70px;
   font-style: normal;
   font-weight: bold;
   text-align: center;
-
+  text-transform: uppercase;
 }
 .ios_button{
   background-image: url(ios.eps);
