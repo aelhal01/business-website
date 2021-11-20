@@ -126,6 +126,21 @@ input, select {
   justify-content: space-between;
 }
 
+/* Body*/
+.ios_button{
+  background-image: url(ios.eps);
+  background-repeat: no-repeat;
+  background-position: <left|right>;
+  padding-<left|right>: 50px;
+}
+
+.googleplay_button {
+  background-image: url(images/google-play.png);
+  background-repeat: no-repeat;
+  background-position: <left|right>;
+  padding-<left|right>: 50px;
+}
+
 
 /* Footer */
 .footer{
