@@ -96,6 +96,12 @@ nav {
 
 
 /*Footer*/
+.footer {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
 .footer .social a {
   margin: 0 10px;
 }
@@ -154,6 +160,10 @@ nav {
 }
 
 /*Home Content - Skills Details*/
+.skills h1{
+  font-size: 36px;
+  font-weight: 600;
+}
 .skills-col {
   flex-basis: 31%;
   border-radius: 10px;
@@ -188,6 +198,10 @@ nav {
   border-radius: 50%;
 }
 .reviews-col p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
   padding: 0;
 }
 .reviews-col h3 {
