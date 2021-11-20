@@ -162,15 +162,6 @@ footer {
 .fa-twitter:hover {
   color: #1C9CEA;
 }
-.img-box{
-  width: 90%;
-  color: #fff;
-  position: absolute;
-  bottom: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 
 /*Common Display*/
 .row{
