@@ -4,42 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Our App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap">
+
+    <title>The Game</title>
   </head>
 
   <body>
-    <!-- Navbar -->
-     <div class="navbar">
-         <div class="container flex">
-             <h1 class="logo"><img src="images/logobusiness.png" width="75"></h1>
-             <nav>
-                 <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="services.html">Our App</a></li>
-                     <li><a href="contact.html">Contact Us</a></li>
-                 </ul>
-             </nav>
-         </div>
-     </div>
+    <!--Header-->
+    <section class="header">
+      <!--Nav Bar-->
+      <nav>
+        <a href="index.html"><img src="images/logobusiness.png" width="100"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="services.html">THE GAME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
 
-    <!-- Footer -->
-     <footer class="footer bg-dark py-5">
-         <div class="container grid grid-3">
-             <div>
-                 <h1 class="logo"><img src="images/logobusiness.png" width="75"></h1>
-                 <p>Copyright &copy; 2021</p>
-             </div>
-             <nav>
-                 <ul>
-                     <li><a href="index.html">Home</a></li>
-                     <li><a href="services.html">Our App</a></li>
-                     <li><a href="contact.html">Contact Us</a></li>
-                 </ul>
-             </nav>
-             <div class="social">
-                 <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-                 <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                 <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-             </div>
-         </div>
-     </footer>
+    <!--Footer-->
+    <section class="footer">
+      <div class="social">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+    </section>
+
+
+    <!--JavaScript for toggle menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      //function to make nav menu appear on PHONE
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      //function to make nav menu disappear on PHONE
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
